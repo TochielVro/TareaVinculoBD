@@ -61,7 +61,7 @@ router.put('/:id', async (req, res) => {
       res.json({ mensaje: 'Usuario actualizado' });
     });
   } catch (error) {
-    res.status(500).json({ error: 'Error al encriptar contraseña' });
+    res.status(500).json({ error: 'Error al encriptar' });
   }
 });
 
