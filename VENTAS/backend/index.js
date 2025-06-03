@@ -6,6 +6,6 @@ const productosRoutes = require('./routes/productos.routes');
 app.use(cors());
 app.use(express.json());
 app.use('/api/productos', productosRoutes);
-app.listen(3001, () => {
+app.listen(3306, () => {
 console.log('Servidor corriendo en http://localhost:3001');
 });
